@@ -1,8 +1,7 @@
-function bisextile(annee){
-    if ((annee % 4 == 0 && annee % 100 > 0) || (annee % 400 == 0)) {
-        console.log(annee + " est bissextile");
-    } else {
-        alert(annee + " n'est pas bissextile");
+function afficherJoursSemaines(){
+    jours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    for(let i = 0; i<jours.length; i++) {
+        console.log(jours[i])
     }
 }
-console.log(bisextile(2024))
+console.log(afficherJoursSemaines())
